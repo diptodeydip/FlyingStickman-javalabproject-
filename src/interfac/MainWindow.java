@@ -73,11 +73,11 @@ public class MainWindow{
 		 
 		//Efficient way
 		 try {
-		 url1 = new URL("file:click3.mp3");
-		 url2 = new URL("file:sound.mp3");
-		 url3 = new URL("file:bonus.mp3");
-		 url4 = new URL("file:fail.mp3");
-		 url5 = new URL("file:failfinal.mp3");
+		 url1 = new URL("file:src/click3.mp3");
+		 url2 = new URL("file:src/sound.mp3");
+		 url3 = new URL("file:src/bonus.mp3");
+		 url4 = new URL("file:src/fail.mp3");
+		 url5 = new URL("file:src/failfinal.mp3");
 		 
 		 }
 		 catch(Exception e){};

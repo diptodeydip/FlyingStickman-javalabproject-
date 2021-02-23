@@ -51,7 +51,7 @@ public class startingwindow extends Application {
 	static int hScore;
 	public static void main(String args[]) throws Exception{
 		//////////////
-		File file = new File("highscore.txt");
+		File file = new File("src/highscore.txt");
 		BufferedReader bf = new BufferedReader(new FileReader(file));
 		highScore=bf.readLine();
 		hScore = Integer.parseInt(highScore);

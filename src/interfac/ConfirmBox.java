@@ -22,7 +22,7 @@ public class ConfirmBox {
 	// Create variable
 	static boolean answer;
 	public static boolean confirmDisplay(String title, String message) throws Exception{
-		File file = new File("highscore.txt");
+		File file = new File("src/highscore.txt");
 		BufferedWriter bf = new BufferedWriter(new FileWriter(file));
 		startingwindow.highScore= Integer.toString(startingwindow.hScore);
 		bf.write(startingwindow.highScore);
