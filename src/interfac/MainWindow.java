@@ -286,6 +286,9 @@ public class MainWindow{
 				Clicksound.play();
 				HighScore.score();
 			}
+			else {
+				HighScore.score();
+			}
 		});
 		highscore.setLayoutX(-100);
 		highscore.setLayoutY(530);
