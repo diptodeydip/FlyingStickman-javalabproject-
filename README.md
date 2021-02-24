@@ -4,7 +4,7 @@ A simple 2d game(using JavaFx).
 It was developed as a course work for Java Lab course (2/1)
 # Overview
 A bird flying forward laying eggs relentlessly and you have to catch those. Sometimes it lays bomb and sometimes heart :p .
-If you(egg shaped head) get in touch with bomb/fenceyou lose a life and if you touch a heart you achieve an extra life.
+If you(egg shaped head) get in touch with bomb/fence you lose a life and if you touch a heart you achieve an extra life.
 
 # Verison
 Eclipse IDE for Java Developers
